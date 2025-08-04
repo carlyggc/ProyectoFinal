@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff0dd;
+  color: #322a2a;
+  height: 500px;
+}
+
+
+
+header {
+  background-color: #b89685;
+  width: 100%;
+  height: 150
+  px;
+  text-align: center;
+   display: flex;
+  padding: 0 20px;
+  position: fixed;
+   align-items: center;
+  top: 0;
+  left: 0;
+  color: #322a2a;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #fff0dd;
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav> a {
+  color:#322a2a;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 15px;
+   
+}
+
+nav> a:hover {
+  text-decoration: underline;
+}
+
+.Slogan {
+  background-image: url('imagenes/Slogan.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.Slogan> h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+main {
+  margin-top: 80px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+section {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #322a2a;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#mision >p {
+  font-size: 16px;
+  color: #555;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+
+#galeria {
+  background-color: #fff0dd;
+}
+
+figure {
+  width: 300px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+figure >img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+figcaption {
+  padding: 15px;
+  text-align: left;
+}
+
+figcaption> h3 {
+  font-family: 'Playfair Display', serif;
+  color: #322a2a;
+  font-size: 20px;
+}
+
+figcaption> p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+#pedido {
+  background-color: #b89685;
+  color: white;
+}
+
+#pedido> h2 {
+  color: white;
+}
+
+form {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #d4bba0;
+  border-radius: 10px;
+}
+
+form >label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  color: #322a2a;
+}
+
+form >input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+form> select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+form> textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+form >button {
+  background-color: #ffba9f;
+  color: #322a2a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form >button:hover {
+  background-color: #ff9a6f;
+}
+
+
+#contacto {
+  background-color: #fff0dd;
+}
+
+#contacto> p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #322a2a;
+}
+
+#contacto >img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+
+footer {
+  text-align: center;
+  background-color: #322a2a;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+}

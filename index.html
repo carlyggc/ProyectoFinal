@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aromélie - Velas Artesanales</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Aromélie</h1>
+      <nav>
+        <form class="buscador" action="#" method="get">
+          <input
+            type="search"
+            placeholder="Buscar producto..."
+            aria-label="Buscar producto"
+          />
+        </form>
+        <a href="#mision">Misión</a>
+        <a href="#galeria">Productos</a>
+        <a href="#pedido">Pedido</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section class="Slogan">
+      <h2>Luz que inspira, aroma que abraza</h2>
+    </section>
+
+    <main>
+      <section id="mision">
+        <h2>Nuestra Misión</h2>
+        <p>
+          En Aromélie, creemos en el poder de los aromas para transformar
+          espacios y emociones. Nuestra misión es crear velas artesanales que
+          combinen fragancias naturales, diseño elegante y una elaboración
+          consciente. Cada vela es elaborada a mano con dedicación, utilizando
+          ingredientes sostenibles y esencias cuidadosamente seleccionadas para
+          brindar momentos de calma, inspiración y armonía. Aspiramos a ser
+          parte de tus rituales diarios, iluminando con suavidad y perfumando
+          con intención cada rincón de tu vida.
+        </p>
+      </section>
+
+      <section id="galeria">
+        <h2>Galería de Productos</h2>
+        <figure>
+          <img src="imagenes/vela1.jpg" alt="Brisa de Lavanda" />
+          <figcaption>
+            <h3>Brisa de Lavanda</h3>
+            <p><strong>Fragancia:</strong> Lavanda natural</p>
+            <p>
+              Una brisa suave que calma la mente y relaja el alma. Ideal para
+              momentos de lectura o meditación.
+            </p>
+            <p><strong>Precio:</strong> Bs. 35</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="imagenes/vela2.jpg" alt="Cálida Canela" />
+          <figcaption>
+            <h3>Cálida Canela</h3>
+            <p><strong>Fragancia:</strong> Canela y vainilla</p>
+            <p>
+              Dulzura envolvente que recuerda a los hogares llenos de amor.
+              Perfecta para las tardes de invierno.
+            </p>
+            <p><strong>Precio:</strong> Bs. 30</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="imagenes/vela3.jpg" alt="Amanecer Cítrico" />
+          <figcaption>
+            <h3>Amanecer Cítrico</h3>
+            <p><strong>Fragancia:</strong> Naranja y limón</p>
+            <p>
+              Energía pura al primer rayo de sol. Despierta tus sentidos y
+              revitaliza tu día.
+            </p>
+            <p><strong>Precio:</strong> Bs. 25</p>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="pedido">
+        <h2>Formulario de Pedido</h2>
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required />
+
+          <label for="aroma">Aroma preferido:</label>
+          <select id="aroma" name="aroma">
+            <option value="lavanda">Lavanda</option>
+            <option value="canela">Canela</option>
+            <option value="vainilla">Vainilla</option>
+            <option value="citricos">Cítricos</option>
+          </select>
+
+          <label for="presentacion">Tipo de presentación:</label>
+          <select id="presentacion" name="presentacion">
+            <option value="grande">Vela grande</option>
+            <option value="pequena">Vela pequeña</option>
+            <option value="flores">Con flores secas</option>
+            <option value="set">Set de 3</option>
+          </select>
+
+          <label for="comentarios">Comentarios adicionales:</label>
+          <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+          <button type="submit">Enviar Pedido</button>
+        </form>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p> aromelie.oficial@gmail.com</p>
+        <p> +591 71400732</p>
+        <p>
+          <a href="https://facebook.com/aromelie" target="_blank"
+            ><img src="imagenes/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://instagram.com/aromelie" target="_blank"
+            ><img src="imagenes/instagram.png" alt="Instagram"
+          /></a>
+          <a href="https://www.tiktok.com/@aromelie" target="_blank"
+            ><img src="imagenes/tiktok.png" alt="TikTok"
+          /></a>
+          <a href="https://wa.me/59171400732" target="_blank"
+            ><img src="imagenes/whatsapp.png" alt="WhatsApp"
+          /></a>
+        </p>
+      </section>
+    </main>
+
+    <footer> 2025 Aromélie </footer>
+  </body>
+</html>
